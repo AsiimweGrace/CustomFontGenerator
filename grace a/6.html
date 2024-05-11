@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Fontif</title>
+    <link rel="stylesheet" href="6.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">A Fontif</div>
+            <ul class="nav-links">
+                <li><a href="2.html">Home</a></li>
+                <li><a href="8.html">Fonts</a></li>
+                <li><a href="5.html">Generator</a></li>
+                <li><a href="9.html">About</a></li>
+                <li><a href="g10.html">Guide</a></li>
+                <li><input type="text" placeholder="Search fonts"></li>
+                <li><button>Search</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="font-customization">
+            <h3>Font Customization</h3>
+            <label for="font-size">Font Size</label>
+            <input type="range" id="font-size" min="10" max="30" value="20">
+            <br>
+            <label for="font-weight">Font Weight</label>
+            <select id="font-weight">
+                <option value="normal">Normal</option>
+                <option value="bold">Bold</option>
+            </select>
+            <br>
+            <label for="font-style">Font Style</label>
+            <select id="font-style">
+                <option value="normal">Normal</option>
+                <option value="italic">Italic</option>
+            </select>
+            <br>
+            <label for="line-height">Line Height</label>
+            <input type="range" id="line-height" min="1" max="2" step="0.1" value="1.5">
+            <br>
+            <label for="letter-spacing">Letter Spacing</label>
+            <input type="range" id="letter-spacing" min="0" max="40" value="20">
+            <br>
+            <label for="font-color">Font Color</label>
+            <input type="color" id="font-color" value="#000000">
+        </div>
+        <div class="font-preview">
+            <h3>Font Preview</h3>
+            <input type="text" placeholder="Enter your text here">
+            <div class="preview-box">
+                <p>Preview:</p>
+                <p class="preview-text">Your Customized Font Preview</p>
+            </div>
+            <div class="download-options">
+                <h3>Download Options</h3>
+                <label for="file-format">Choose file format:</label>
+                <select id="file-format">
+                    <option value="ttf">TTF</option>
+                    <option value="otf">OTF</option>
+                    <option value="woff">WOFF</option>
+                </select>
+                <br>
+                <button><a href="11.html">Download Font</a></button>
+                <button><a href="11.html">Download CSS</a></button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <button>Feedback</button>
+        <p>About Us</p>
+        <p>Terms of Service Privacy Policy &copy; 2023 Fontify</p>
+        <p>Back to Top</p>
+    </footer>
+</body>
+</html>

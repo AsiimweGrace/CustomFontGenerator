@@ -1,0 +1,74 @@
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+}
+
+.text-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-align: left;
+}
+
+.text-container p {
+    font-size: 24px;
+    line-height: 1.5;
+    max-width: 600px;
+
+}
+
+/* Font display styles */
+.font-display {
+    max-width: 100%;
+    height: auto;
+}
+
+.font-display img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+header button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 1200px;
+    margin-bottom: 700px;
+}
+a{
+    color: #000;
+    
+    }
+    a:visited{
+    
+    color: gray;
+    
+    }
+    
+    a:hover, a:active{
+    
+        color:green;
+    }

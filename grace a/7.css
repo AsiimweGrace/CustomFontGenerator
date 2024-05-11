@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+   
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #d3d3d3;
+}
+
+p  {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.sample {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Aligns items to the bottom */
+    align-items: center; /* Centers items horizontally */
+    min-height: 100vh; /* Ensures the container takes up the full viewport height */
+    padding-bottom: 280px; /* Adds some spacing from the bottom */
+    size: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin: 5px;
+    
+   
+}
+
+.sample img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #000000;
+    margin-bottom: 20px;
+}

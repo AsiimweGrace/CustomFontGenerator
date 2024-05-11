@@ -1,0 +1,123 @@
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:none;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 70px;
+    margin-top: 15px;
+}
+nav ul  p{
+font-size: xx-large;
+text-decoration: underline;
+justify-content: space-between;
+margin-right: 0.2in;
+font-weight: bolder;
+
+
+}
+
+
+header button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 45px;
+}
+
+/* Main section styles */
+.hero {
+    text-align: center;
+    padding: 270px;
+    font-size: xx-large; /* Increase the font size of the <h1> element */
+   
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* Footer styles */
+footer {
+    
+    background-color: #000000;
+    color: #fff;
+    padding: irem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 5000px;
+    margin:0 auto;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  height: 70px;
+}
+
+.section {
+    text-align: center;
+}
+
+.section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 16px;
+}
+a{
+    color: aliceblue;
+    
+    }
+    a:visited{
+    
+    color: lightgray;
+    
+    }
+    
+    a:hover, a:active{
+    
+        color:blue;
+    }
+  button a{
+        color: #000000;
+    }

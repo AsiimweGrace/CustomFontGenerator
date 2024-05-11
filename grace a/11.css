@@ -1,0 +1,78 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+#countdown {
+  font-weight: bold;
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #3e8e41;
+}
+
+.download-btn i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.note {
+  font-size: 14px;
+  color: #777;
+}
+
+.note a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.note a:hover {
+  text-decoration: underline;
+}
